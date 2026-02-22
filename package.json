@@ -1,0 +1,34 @@
+{
+  "name": "streamkit-widget-helper",
+  "version": "1.0.0",
+  "description": "Helper package for RocketMan StreamKit application custom widget development.",
+  "keywords": [
+    "widget",
+    "js",
+    "rocketman",
+    "streamkit"
+  ],
+  "homepage": "https://github.com/RocketMan-System/StreamKit-widget-helper#readme",
+  "bugs": {
+    "url": "https://github.com/RocketMan-System/StreamKit-widget-helper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketMan-System/StreamKit-widget-helper.git"
+  },
+  "license": "MIT",
+  "author": "RocketMan",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "watch": "webpack --watch --progress"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3"
+  },
+  "dependencies": {
+    "@xxanderwp/jstoolkit": "^1.0.1",
+    "axios": "^1.13.5"
+  }
+}

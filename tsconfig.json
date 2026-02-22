@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "es2021",
+    "allowJs": true,
+    "lib": ["es2021", "dom", "dom.iterable", "esnext"],
+    "moduleResolution": "Node",
+    "types": ["@types/node"],
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"]
+}
