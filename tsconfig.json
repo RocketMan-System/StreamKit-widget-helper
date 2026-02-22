@@ -4,13 +4,11 @@
     "module": "CommonJS",                // для Node.js
     "outDir": "dist",                     // куда складывать JS
     "rootDir": "src",                     // корень TS файлов
+    "emitDeclarationOnly": false,
     "declaration": true,                  // генерировать .d.ts
     "declarationDir": "dist/types",       // куда складывать типы
     "strict": true,                        // строгая проверка TS
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*.ts"],
+  "include": ["src"],
   "exclude": ["node_modules"]
 }
