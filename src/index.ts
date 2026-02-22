@@ -1,8 +1,8 @@
-import { ApiRequest } from "./modules/api";
-import { SsePrivate, SsePublic } from "./modules/sse";
-import { API_TOKEN, PAGE_ID } from "./modules/token";
+import { ApiRequest } from "./api";
+import { SsePrivate, SsePublic } from "./sse";
+import { API_TOKEN, PAGE_ID } from "./token";
 
-export default {
+export {
     API_TOKEN,
     PAGE_ID,
     SsePublic,
