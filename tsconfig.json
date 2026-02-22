@@ -1,17 +1,16 @@
 {
   "compilerOptions": {
-    "strict": true,
-    "baseUrl": ".",
-    "module": "commonjs",
-    "target": "es2021",
-    "allowJs": true,
-    "lib": ["es2021", "dom", "dom.iterable", "esnext"],
-    "moduleResolution": "Node",
-    "types": ["@types/node"],
-    "sourceMap": true,
-    "allowSyntheticDefaultImports": true,
+    "target": "ES2020",                  // какой JS генерировать
+    "module": "CommonJS",                // для Node.js
+    "outDir": "dist",                     // куда складывать JS
+    "rootDir": "src",                     // корень TS файлов
+    "declaration": true,                  // генерировать .d.ts
+    "declarationDir": "dist/types",       // куда складывать типы
+    "strict": true,                        // строгая проверка TS
     "esModuleInterop": true,
-    "resolveJsonModule": true
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
 }

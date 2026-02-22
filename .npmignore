@@ -1,0 +1,7 @@
+# Source files (we only publish dist/)
+src/
+node_modules/
+tsconfig.json
+webpack.config.js
+.github
+tsconfig.json

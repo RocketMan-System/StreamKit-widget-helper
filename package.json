@@ -19,13 +19,20 @@
   "license": "MIT",
   "author": "RocketMan",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "dist/index.js",
   "scripts": {
-    "build": "webpack --progress",
-    "watch": "webpack --watch --progress"
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "devDependencies": {
-    "@types/node": "^25.2.3"
+    "@types/node": "^25.2.3",
+    "copy-webpack-plugin": "^13.0.1",
+    "esbuild-loader": "^4.4.2",
+    "ts-loader": "^9.5.4",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "@xxanderwp/jstoolkit": "^1.0.1",
