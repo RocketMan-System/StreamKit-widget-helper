@@ -7,3 +7,6 @@ if(!API_TOKEN) {
 
 /** Widget page ID (for widget only) */
 export const PAGE_ID = query.get('pageId') as string
+
+/** Effect triggerId (for effects/screamers only) */
+export const TRIGGER_ID = query.get('triggerId') as string
