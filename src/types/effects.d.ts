@@ -1,4 +1,6 @@
 declare namespace StreamKit {
-    type ScreenEffect = string;
+    namespace Effects {
+        type ScreenEffect = string;
+    }
 }
 

@@ -1,4 +1,6 @@
 declare namespace StreamKit {
-    type MusicItemType = 'yt' | 'sp' | 'sc';
+    namespace Music {
+        type MusicItemType = 'yt' | 'sp' | 'sc';
+    }
 }
 
