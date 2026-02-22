@@ -23,9 +23,6 @@
   "scripts": {
     "build": "tsc"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "@types/node": "^25.2.3",
     "copy-webpack-plugin": "^13.0.1",
