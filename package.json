@@ -1,6 +1,6 @@
 {
   "name": "@rocketman-system/streamkit-widget-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helper package for RocketMan StreamKit application custom widget development.",
   "keywords": [
     "widget",
